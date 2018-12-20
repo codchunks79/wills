@@ -1,0 +1,204 @@
+body{font-family: 'Montserrat', sans-serif !important; text-align: center; background: #FAFAFA !important; color: #6F6F6F !important;}
+
+.container-fluid{padding: 0px !important; width: 100%;}
+
+a{text-decoration: none !important; color: #6F6F6F !important;}
+
+/*********************
+HEADER
+**********************/header{
+background-image: linear-gradient(to bottom, #016ba8, #1c74af, #2c7db5, #3a86bc, #468fc2, #5396c7, #5f9ecd, #6aa5d2, #78add7, #85b5dd, #92bde2, #9fc5e8);
+  color: #ffffff;
+
+  padding: 0px 0px 50px 0px;
+}
+
+.header-intro-text p {font-size: 16px;}
+
+.header-intro{margin: 25px 0px;}
+
+.header-intro hr{border-top: 1px solid #ffffff; width: 90%;}
+
+/*********************
+END HEADER
+**********************/
+
+
+/*********************
+Universal Classes
+**********************/
+.small{font-size: 12px !important;}
+.paddingOne{padding: 25px 0px;}
+.paddingTop{padding-top: 15px;}
+.marginOne{margin: 50px 0px;}
+.marginOneBottom{margin-bottom: 25px;}
+.lifeTimeBlueBg{background-color:#016BA8;}
+.noMargin{margin: 0px;}
+
+/*********************
+END Universal Classes
+**********************/
+
+/************************
+TYPOGRAPHY
+*************************/
+.header-intro h1 {color: #ffffff; font-weight: 700; font-size: 28px;}
+
+h2{font-size: 21px !important; font-weight: 700 !important; color:#6F6F6F !important;}
+
+h3{font-size: 18px !important; font-weight: 700 !important; color:#6F6F6F !important;}
+
+p{margin-bottom: 10px; font-size: 15px;}
+
+.noMarginP{margin:0px !important;}
+
+p.line{border-left: 2px solid #9FC5E8; padding-left: 15px;}
+
+.smallprint{font-size: 12px; padding-top: 25px;}
+
+
+/************************
+End TYPOGRAPHY
+*************************/
+
+/************************
+NAVIGATION
+*************************/
+
+.nav-link{ color: white !important; font-weight: 700; transition: color 1s;}
+
+.nav-link:hover{color: #8934B9 !important;}
+
+.navbar-expand-lg .navbar-nav .nav-link{font-size: 14px; font-weight: lighter;}
+
+.pipe{visibility: hidden;}
+
+.nav.navbar.navbar-expand-lg.navbar-inverse.bg-inverse.container { text-align: left !important;}
+
+.close{ color: #8934B9 !important;}
+
+/************************
+END NAVIGATION
+*************************/
+
+/************************
+CARDS
+*************************/
+.card{padding: 25px; border: none; outline: none !important; box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.3); border-radius: 15px !important; margin-top: 15px;}
+
+.card-hover{background: #ffffff; padding: 25px; border: none; outline: none !important; box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.3); border-radius: 15px !important; margin-top: 15px; transition: 1s all;}
+
+.card-hover:hover{background: #8934B9; color: #ffffff; cursor: pointer;}
+
+.cardPullOut{padding: 25px; border: none; outline: none !important; box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.3); border-radius: 15px !important; margin-top: 15px; color: white; background: #016BA8; transition: all 1s;}
+
+.cardPullOut:hover{background: #8934B9; color: #ffffff; cursor: pointer;}
+
+.card button{ position: relative; bottom: 2px; left: 3px;}
+
+.mirror-will-data{display: none; transistion: all 5s}
+
+.hide-box{display: none;}
+
+.show-box{display: block; transistion: all 5s}
+
+.selected{background-color: #8934B9 !important; color: #ffffff; transition all 1s;}
+
+.cursor .card{cursor: pointer;}
+/************************
+END CARDS
+*************************/
+
+/********************
+BUTTONS
+*********************/
+
+button.primaryContained{width: 260px; background: #ffffff; color: #016BA8; padding: 10px 25px; border: none; margin-top: 0px; cursor: pointer; text-transform: uppercase;  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.25); transition: 1s all; font-size: 14px; font-weight: 700; margin: 7.5px 0px; border-radius: 5px;}
+
+button.primaryContained:hover{ background: #016BA8; color: #ffffff; }
+
+button.primaryContainedTwo{ background: #016BA8; color: #ffffff; padding: 10px 15px; border: none; margin-top: 0px; cursor: pointer; text-transform: uppercase;  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.25); transition: 1s all; font-size: 14px; font-weight: 700; border-radius: 5px; margin: 7.5px 0px;}
+
+button.primaryContainedTwo:hover{ background: #8934B9;}
+
+/********************
+END BUTTONS
+*********************/
+
+/********************
+FORMS
+*********************/
+
+.primaryInput{margin-top: 15px; background: #E8E8E8; border:none; padding: 10px 15px; border-radius: 5px 5px 0px 0px; border-bottom: 2px solid #016BA8; transition: all 0.5s;  width: inherit;}
+
+.primaryInput:focus{blur: none; border: none; outline-blur: none; outline: 1px solid #9201A8; box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.15);}
+
+/********************
+END FORMS
+*********************/
+
+.modal-content{padding: 25px; border: none; outline: none !important; box-shadow: 0px 0px 13px 5px rgba(0,0,0,0.3); border-radius: 15px !important; margin-top: 15px;}
+
+/************************
+Font Awesome
+*************************/
+.fa-clock, .fa-heart, .fa-user-ninja, .fa-info, .fa-signature{font-size: 48px; color: #016BA8;}
+.fa-search-plus{font-size: 48px; color: #ffffff;}
+/************************
+End Font Awesome
+*************************/
+
+
+.rounded-circle{border: 2px solid #8934B9;}
+
+.gps_ring {
+    background: #CB0505;
+    -webkit-border-radius: 30px;
+    height: 18px;
+    width: 18px;
+    position: relative;
+    left: 95%;
+    -webkit-animation: pulsate 1.5s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.0
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+
+/********************
+MEDIA MIN 991px
+*********************/
+@media(min-width:991px){
+
+  .pipe{visibility: visible;}
+
+  .header-intro hr{display: none;}
+
+}
+
+/********************
+END MEDIA MIN 991px
+*********************/
+
+/********************
+MEDIA MIN 1000px
+*********************/
+@media(min-width:1000px){
+
+body{text-align: left;}
+
+h1{font-size: 48px !important;}
+
+h2{font-size: 34px !important;}
+
+.box-height{height: 275px;}
+
+}
+
+/********************
+END MEDIA MIN 1000px
+*********************/
