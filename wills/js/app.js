@@ -416,7 +416,8 @@ new Vue({
 
 /***********
 jquery
-*///////////
+************/
+
 $(document).ready(function(){
   $(".click").click(function(){
      $(".single-will-data").toggleClass("hide-box");
@@ -447,4 +448,4 @@ $(function(){
 
 /***********
 End jquery
-*///////////
+************/

@@ -102,7 +102,7 @@ CARDS
 
 .show-box{display: block; transistion: all 5s}
 
-.selected{background-color: #8934B9 !important; color: #ffffff; transition all 1s;}
+.selected{background-color: #8934B9 !important; color: #ffffff; transition: all 0.5s; box-shadow: inset 0px 0px 2px 1px rgba(0,0,0,0.5);}
 
 .cursor .card{cursor: pointer;}
 /************************
